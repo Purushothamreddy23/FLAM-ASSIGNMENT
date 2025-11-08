@@ -40,8 +40,6 @@ y(t) = 42 + t·sin(θ) + e^(M|t|)·sin(0.3t)·cos(θ)
 
 ---
 
-## Submission Format
-
 ### LaTeX Format (Full Precision):
 ```latex
 \left(t*\cos(0.523613)-e^{0.030000\left|t\right|}\cdot\sin(0.3t)\sin(0.523613)\ +55.0007,42+\ t*\sin(0.523613)+e^{0.030000\left|t\right|}\cdot\sin(0.3t)\cos(0.523613)\right)
@@ -51,8 +49,6 @@ y(t) = 42 + t·sin(θ) + e^(M|t|)·sin(0.3t)·cos(θ)
 ```latex
 \left(t*\cos(0.5236)-e^{0.0300\left|t\right|}\cdot\sin(0.3t)\sin(0.5236)\ +55.00,42+\ t*\sin(0.5236)+e^{0.0300\left|t\right|}\cdot\sin(0.3t)\cos(0.5236)\right)
 ```
-
-**Copy the above equation to:** https://www.desmos.com/calculator
 
 Then set the domain: `6 ≤ t ≤ 60`
 
@@ -180,17 +176,6 @@ This sensitivity pattern confirms:
    - 1D sensitivity plots for each parameter
    - 2D contour plots for parameter interactions
    - Quantitative sensitivity metrics
-
-3. **`README.md`** - This documentation
-
-### Dependencies:
-```python
-numpy >= 1.20.0
-pandas >= 1.3.0
-scipy >= 1.7.0
-matplotlib >= 3.4.0
-```
-
 ---
 
 ## Results Interpretation
@@ -258,16 +243,6 @@ The optimization successfully identified parameter values that produce a curve f
 The solution demonstrates effective application of global optimization techniques to inverse parametric curve problems where the parameter-to-data mapping is unknown.
 
 ---
-
-## Author
-
-Solution developed using:
-- **Optimization:** SciPy's Differential Evolution
-- **Numerical Computing:** NumPy
-- **Data Analysis:** Pandas
-- **Visualization:** Matplotlib
-
-**Date:** 2025
 
 ---
 
